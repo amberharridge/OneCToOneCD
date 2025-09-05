@@ -16,7 +16,7 @@ namespace OneCToOneCD.Models
                 
         }
 
-        DbSet<Course> Courses { get; set; }
-        DbSet<CourseDetails> CoursesDetails { get; set; }
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<CourseDetails> CoursesDetails { get; set; }
     }
 }

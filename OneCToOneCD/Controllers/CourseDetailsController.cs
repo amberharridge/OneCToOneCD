@@ -11,7 +11,7 @@ namespace OneCToOneCD.Controllers
 {
     public class CourseDetailsController : Controller
     {
-        private readonly AppDbContext _context;
+        public AppDbContext _context;
 
         public CourseDetailsController(AppDbContext context)
         {
